@@ -1,0 +1,35 @@
+.network-page { background: #f2f4ee; }
+.network-page main { overflow: hidden; }
+.network-hero { min-height: 760px; height: min(900px, 94vh); max-height: 980px; position: relative; display: flex; align-items: flex-end; overflow: hidden; background: #14221e; color: #fff; }
+.network-hero > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 42%; }
+.network-hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(8,18,16,.85), rgba(8,18,16,.48) 50%, rgba(8,18,16,.05)), linear-gradient(0deg, rgba(8,18,16,.5), transparent 72%); }
+.network-hero-copy { position: relative; z-index: 1; max-width: 850px; padding: 0 0 100px 9%; }
+.network-eyebrow { margin: 0 0 20px; color: #bceee2; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; }
+.network-eyebrow span { display: inline-block; width: 7px; height: 7px; margin-right: 9px; border-radius: 50%; background: var(--mint); }
+.network-hero h1 { margin: 0; font: 700 clamp(69px, 9vw, 123px)/.88 var(--display); }
+.network-hero h1 em, .network-global h2 em, .network-local h2 em { color: var(--mint); font-style: normal; }
+.network-hero-copy > p:last-child { max-width: 490px; margin: 22px 0 0; color: #d8e5df; font-size: 13px; line-height: 1.7; }
+.network-hero-note { position: absolute; right: 6%; bottom: 32px; z-index: 1; font-size: 9px; letter-spacing: 1px; text-transform: uppercase; }
+.network-global { display: grid; grid-template-columns: 1fr .8fr; gap: 10%; align-items: center; padding: 115px 9%; background: #dff5ef; }
+.network-eyebrow-dark { color: #34766b; }
+.network-global h2 { margin: 0; font: 700 clamp(43px, 5.4vw, 72px)/1 var(--display); }
+.network-global h2 em { color: #078e77; }
+.network-global-copy > p:not(.network-eyebrow) { max-width: 540px; margin: 24px 0 0; color: #4b625b; font-size: 13px; line-height: 1.75; }
+.network-link { display: inline-flex; align-items: center; gap: 20px; margin-top: 28px; padding-bottom: 8px; border-bottom: 1px solid currentColor; font-size: 11px; font-weight: 700; }
+.network-link span { color: #078e77; font-size: 16px; }
+.network-global-visual { position: relative; min-height: 465px; background: #adbbb3; }
+.network-global-visual img { width: 100%; height: 100%; min-height: 465px; object-fit: cover; }
+.network-visual-index { position: absolute; bottom: 0; left: 0; padding: 15px 18px; background: var(--mint); font-size: 8px; font-weight: 700; letter-spacing: 1px; }
+.network-local { padding: 28px 9% 30px; background: #171e1b; color: white; }
+.network-local-top { display: flex; justify-content: space-between; gap: 20px; padding-bottom: 17px; border-bottom: 1px solid rgba(255,255,255,.12); }
+.network-local-top .network-eyebrow { margin: 0; color: var(--mint); }
+.local-coordinate { color: #b9c3bc; font-size: 8px; letter-spacing: 1px; }
+.network-local-body { display: grid; grid-template-columns: 1fr .8fr; gap: 12%; align-items: start; padding: 80px 0 85px; }
+.network-local h2 { max-width: 680px; margin: 0; font: 700 clamp(49px, 6.5vw, 86px)/.96 var(--display); }
+.network-local h2 em { color: var(--mint); }
+.network-local-body > div p { max-width: 480px; margin: 0 0 16px; color: #c2cbc5; font-size: 12px; line-height: 1.8; }
+.network-link-light { color: white; }
+.network-local-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 15px; padding-top: 17px; border-top: 1px solid rgba(255,255,255,.12); color: #a8b5ad; font-size: 8px; font-weight: 700; letter-spacing: 1px; }
+.network-footer { margin-top: 0; }
+@media(max-width:850px){.network-global{gap:6%;padding:90px 7%}.network-local{padding-right:7%;padding-left:7%}.network-local-body{gap:7%}}
+@media(max-width:620px){.network-hero{min-height:760px;height:91svh}.network-hero>img{object-position:58% center}.network-hero-overlay{background:linear-gradient(0deg,rgba(8,18,16,.91),rgba(8,18,16,.16))}.network-hero-copy{padding:0 6% 100px}.network-hero h1{font-size:clamp(60px,16vw,88px)}.network-hero-copy>p:last-child{font-size:12px}.network-hero-note{right:6%;bottom:26px;font-size:8px}.network-global{grid-template-columns:1fr;gap:35px;padding:72px 6%}.network-global h2{font-size:clamp(41px,12vw,58px)}.network-global-visual,.network-global-visual img{min-height:370px;height:370px}.network-local{padding:24px 6%}.network-local-body{grid-template-columns:1fr;gap:27px;padding:58px 0 62px}.network-local h2{font-size:clamp(45px,13vw,65px)}.network-local-body>div p{font-size:11px}.network-local-bottom{justify-content:flex-start;column-gap:20px}}

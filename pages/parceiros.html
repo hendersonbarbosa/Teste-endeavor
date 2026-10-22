@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#c9f1e9" />
+    <meta name="description" content="Conheça as organizações que fortalecem a rede Endeavor Brasil." />
+    <title>Parceiros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/pages/parceiros.css" />
+    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/pages/partners-directory.ts"></script>
+  </head>
+  <body class="partners-page">
+    <header class="site-header">
+      <a class="wordmark" href="../index.html#inicio" aria-label="Endeavor Brasil, início"><span>endeavor</span><i></i></a>
+      <a class="header-link" href="rede.html">A força da rede <span aria-hidden="true">↘</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-menu"><span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button>
+      <nav class="menu-panel" id="site-menu" aria-label="Navegação principal" hidden>
+        <a href="sobre.html">Sobre a Endeavor <span>01</span></a>
+        <a href="impacto.html">Nosso impacto <span>02</span></a>
+        <a href="empreendedores.html">Empreendedores <span>03</span></a>
+        <a href="processo-seletivo.html">Processo seletivo <span>04</span></a>
+        <a href="empresas.html">Portfólio de empresas <span>05</span></a>
+        <a href="rede.html">Nossa rede <span>06</span></a>
+        <a href="parceiros.html">Parceiros institucionais <span>07</span></a>
+        <a href="carreiras.html">Carreiras <span>08</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="partners-hero" aria-labelledby="partners-title">
+        <div class="partners-hero-copy"><p class="partner-eyebrow"><span></span> Conheça nossa rede</p><h1 id="partners-title">Missão forte.<br /><em>Parcerias que movem.</em></h1><p>Nossos parceiros fortalecem a Rede que nos move. Eles impulsionam eventos, mentorias, pesquisas e encontros que unem nossos empreendedores ao longo do ano. Cada parceria amplia nossa ambição e o impacto que construímos juntos.</p><a class="partner-hero-link" href="#parceiros-lista">Conheça quem está com a gente <span aria-hidden="true">↓</span></a></div>
+        <div class="partners-hero-mark" aria-hidden="true"><span>22</span><small>parcerias<br />que multiplicam impacto</small></div>
+        <div class="partners-hero-index">Endeavor Brasil · Rede institucional</div>
+      </section>
+
+      <section class="partners-directory" id="parceiros-lista" aria-label="Diretório de parceiros">
+        <div class="partners-directory-heading"><div><p class="partner-eyebrow partner-eyebrow-dark">Uma rede feita em conjunto</p><h2>Conheça nossos<br /><em>parceiros.</em></h2></div><p>Organizações que tornam possíveis as conexões, pesquisas, mentorias e eventos da comunidade Endeavor.</p></div>
+        <form id="partner-filters" class="partner-filters"><label class="partner-search"><span>Buscar parceiro</span><input id="partner-search" type="search" placeholder="Nome ou atuação" autocomplete="off" /></label><label class="partner-year"><span>Ano de parceria</span><select id="partner-year"><option value="">Todos os anos</option></select></label><button id="partner-clear" type="reset">Limpar filtros <b aria-hidden="true">×</b></button></form>
+        <div class="partner-countline"><span id="partner-count" aria-live="polite">22 parceiros</span><span></span><small>Selecione uma marca para conhecer mais</small></div>
+        <div class="partner-grid" id="partner-grid"></div>
+      </section>
+
+      <section class="partner-cta"><p class="partner-eyebrow">Vamos construir juntos</p><h2>Quer fazer parte<br />dessa <em>rede?</em></h2><p>Converse com o nosso time sobre como sua organização pode apoiar a missão Endeavor.</p><a href="https://docs.google.com/forms/d/1Zg-5ak4iTVDHeQ9F3E5JmniSQjpDX4CkqpkO5H1dXhQ/edit" target="_blank" rel="noreferrer">Quero virar um parceiro <span aria-hidden="true">↗</span></a></section>
+    </main>
+
+    <footer class="site-footer partners-footer">
+      <a class="wordmark footer-wordmark" href="../index.html#inicio" aria-label="Endeavor Brasil, voltar ao início"><span>endeavor</span><i></i></a>
+      <p>Multiplicando os empreendedores que transformam o Brasil.</p>
+      <a class="footer-top" href="../index.html#inicio">Voltar à página principal ↗</a>
+      <small>© 2026 Endeavor Brasil <span>·</span> <a href="https://brasil.endeavor.org/privacy-policy/">Privacidade</a></small>
+    </footer>
+  </body>
+</html>
